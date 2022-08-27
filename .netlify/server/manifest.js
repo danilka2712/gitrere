@@ -31,7 +31,7 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "_app/immutable/start-80be3042.js", "imports": ["_app/immutable/start-80be3042.js", "_app/immutable/chunks/index-a7123073.js", "_app/immutable/chunks/singletons-4f8eda6d.js", "_app/immutable/chunks/preload-helper-aa6bc0ce.js"], "stylesheets": [] },
+    entry: { "file": "_app/immutable/start-28338675.js", "imports": ["_app/immutable/start-28338675.js", "_app/immutable/chunks/index-a7123073.js", "_app/immutable/chunks/singletons-2900d1b5.js", "_app/immutable/chunks/preload-helper-aa6bc0ce.js"], "stylesheets": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
