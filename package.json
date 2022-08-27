@@ -1,0 +1,33 @@
+{
+	"name": "my-port",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@iconify/svelte": "^2.2.1",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.72",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.8",
+		"vite": "^3.0.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"bulma": "^0.9.4",
+		"sass": "^1.54.5",
+		"svelte-locomotive-scroll": "^0.0.5"
+	}
+}

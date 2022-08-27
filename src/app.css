@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #121212;
+	color: #f4f4f4;
+
+	
+}
+
+.text-stroke {
+	-webkit-text-stroke: 2px #7d7d7d;
+	-webkit-text-fill-color: transparent;
+}
+.text-stroke-2 {
+	-webkit-text-stroke: 1px #f2f2f2;
+	-webkit-text-fill-color: transparent;
+}
+.marquee {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.track {
+	will-change: transform;
+	font-size: 60px;
+	animation: marquee 30s linear infinite;
+	display: inline-block;
+	padding-right: 10px;
+}
+.track3 {
+	will-change: transform;
+	font-size: 60px;
+	animation: marquee 50s linear infinite;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-70%);
+	}
+}
+.marquee2 {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.track2 {
+	will-change: transform;
+	font-size: 60px;
+	animation: marquee2 30s linear infinite;
+	display: inline-block;
+	padding-right: 10px;
+}
+.track4 {
+	will-change: transform;
+	font-size: 60px;
+	animation: marquee2 50s linear infinite;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+@keyframes marquee2 {
+	from {
+		transform: translateX(-70%);
+	}
+	to {
+		transform: translateX(0%);
+	}
+}
